@@ -3,10 +3,13 @@
     src: url(font/CodecPro-Thin.ttf);
 }
 
-body, html {
-    height: 100%;
+* {
     margin: 0;
     padding: 0;
+}
+
+body, html {
+    height: 100%;
     font-family: "Codec Pro Thin", Verdana, Tahoma;
     color: white;
 
@@ -21,7 +24,7 @@ body, html {
 /* First Page */
 
 #index-page {
-    background-image: url(img/Sitio\ WEB/50.jpg);
+    background-image: url(img/50.jpg);
 }
 
 .title {
@@ -49,12 +52,12 @@ a:link:visited:hover:active {
 }
 
 #third-page {
-    background-image: url(img/Sitio\ WEB/artworks.jpg);
+    background-image: url(img/artworks.jpg);
     color: #746962;
 }
 
 #fourth-page {
-    background-image: url(img/Sitio\ WEB/57.jpg);
+    background-image: url(img/57.jpg);
 }
 
 #fifth-page {
@@ -67,34 +70,34 @@ a:link:visited:hover:active {
 }
 
 #seventh-page {
-    background-image: url(img/Sitio\ WEB/81.jpg);
+    background-image: url(img/81.jpg);
 }
 
 #eighth-page {
-    background-image: url(img/Sitio\ WEB/74.jpg);
+    background-image: url(img/74.jpg);
 }
 
 #ninth-page {
-    background-image: url(img/Sitio\ WEB/38.jpg);
+    background-image: url(img/38.jpg);
 }
 
 #tenth-page {
-    background-image: url(img/Sitio\ WEB/36.jpg);
+    background-image: url(img/36.jpg);
 }
 
 
 #eleventh-page {
-    background-image: url(img/Sitio\ WEB/0000.jpg);
+    background-image: url(img/0000.jpg);
 }
 
 #twelft-page {
-    background-image: url(img/Sitio\ WEB/1.jpg);
+    background-image: url(img/1.jpg);
 }
 
 #link-of-interest {
-    background-image: url(img/Sitio\ WEB/links-of-interest.jpg);
+    background-image: url(img/links-of-interest.jpg);
 }
 
 #contact-page {
-    background-image: url(img/Sitio\ WEB/contact.jpg);
+    background-image: url(img/contact.jpg);
 }
