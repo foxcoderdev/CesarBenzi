@@ -15,10 +15,28 @@ body, html {
 
   }
 
+.page-title-1 {
+    font-size: 80px;
+}
+
+.page-title-2 {
+    font-size: 50px;
+}
+
+#bio-text {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 30px;
+}
+
 .page {
   height: 100%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  display: flex;
 }
 
 /* First Page */
@@ -45,15 +63,24 @@ a:link:visited:hover:active {
     text-decoration: underline; color: white;
 }
 
+.page-link {
+    font-size: 40px;
+}
+
 /* Second Page */
 
 #second-page {
     background-color: #746962;
 }
 
+#second-page img {
+    height: 100%;
+}
+
 #third-page {
     background-image: url(img/artworks.jpg);
-    color: #746962;
+    color: #d3c9c2;
+
 }
 
 #fourth-page {
@@ -61,7 +88,7 @@ a:link:visited:hover:active {
 }
 
 #fifth-page {
-    height: 100%;
+    background-image: url(img/43.jpg);
 }
 
 #sixth-page {
