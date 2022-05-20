@@ -23,9 +23,11 @@ body, html {
     font-size: 60px;
 }
 
-#bio-text {
-    font-size: 20px;
+.bio-text {
+    font-size: 17px;
     font-weight: 500;
+    width: 57%;
+    line-height: 18pt;
 }
 
 p {
@@ -54,7 +56,12 @@ p {
 }
 
 #index-page span {
-    display: block;
+    display: grid;
+    margin-bottom: 5%;
+}
+
+.language-link {
+    padding: 15px;
 }
 
 #main-title {
@@ -63,7 +70,7 @@ p {
 
 
 a {
-    font-size: 20px;
+    font-size: 25px;
     color: white;
 }
 
@@ -80,17 +87,23 @@ a:link:visited:hover:active {
 #second-page {
     display: flex;
     background-color: #746962;
-    justify-content: center;
 }
 
 #second-page img {
     height: 100%;
+    margin-right: 0;
+    position: relative;
+    right: 8%;
 }
 
 #second-page span {
-    display: flex;
-    flex-direction: column;
+    align-self: stretch;
+    height: 25px;
+    position: relative;
+    left: 12%;
+    top: 10%;
 }
+
 
 #third-page {
     background-image: url(img/artworks.jpg);
@@ -132,6 +145,11 @@ a:link:visited:hover:active {
     background-color: #746962;
 }
 
+#sixth-page img {
+    height: 100%;
+    margin-right: 0%
+}
+
 #seventh-page {
     background-image: url(img/81.jpg);
 }
@@ -166,4 +184,19 @@ a:link:visited:hover:active {
 
 #contact-page {
     background-image: url(img/contact.jpg);
+    font-size: 40px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+}
+
+#contact-items {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+    margin-right: 5%;
+}
+
+#contact-items span {
+    margin: 10px;
 }
