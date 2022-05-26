@@ -175,6 +175,10 @@ a:link:visited:hover:active {
     background-image: url(img/1.jpg);
 }
 
+#twelft-page span {
+    margin-right: 10%;
+}
+
 #link-of-interest {
     background-image: url(img/links-of-interest.jpg);
     display: flex;
