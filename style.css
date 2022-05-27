@@ -302,7 +302,7 @@ a:link:visited:hover:active {
 }
 
 
-@media (min-width: 320px) and (max-width: 950px) {
+@media (min-width: 320px) and (max-width: 768px) {
     .page-title-1 {
         font-size: 4.5rem;
     }
@@ -351,3 +351,11 @@ a:link:visited:hover:active {
         margin-top: 10px;
     }
   }
+
+  @media (min-width:320px) and (max-width: 801px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+    #second-page img {
+        height: 20%;
+        margin-top: 23%;
+    }
+
+}
