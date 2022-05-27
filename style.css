@@ -12,8 +12,27 @@ body, html {
     height: 100%;
     font-family: "Codec Pro Thin", Verdana, Tahoma;
     color: white;
-
+    
   }
+
+.page-title-1 {
+    font-size: 100px;
+}
+
+.page-title-2 {
+    font-size: 60px;
+}
+
+.bio-text {
+    font-size: 17px;
+    font-weight: 500;
+    width: 57%;
+    line-height: 18pt;
+}
+
+p {
+    font-size: 30px;
+}
 
 .page {
   height: 100%;
@@ -25,10 +44,24 @@ body, html {
 
 #index-page {
     background-image: url(img/50.jpg);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
 }
 
-.title {
-    display: flex
+#index-page .page-title-1 {
+    margin-bottom: 6%;
+    margin-right: 20%;
+}
+
+#index-page span {
+    display: grid;
+    margin-bottom: 5%;
+}
+
+.language-link {
+    padding: 15px;
 }
 
 #main-title {
@@ -37,7 +70,7 @@ body, html {
 
 
 a {
-    font-size: 20px;
+    font-size: 25px;
     color: white;
 }
 
@@ -45,59 +78,219 @@ a:link:visited:hover:active {
     text-decoration: underline; color: white;
 }
 
+.page-link {
+    font-size: 30px;
+}
+
 /* Second Page */
 
 #second-page {
+    display: flex;
     background-color: #746962;
 }
 
+#second-page img {
+    height: 100%;
+    margin-right: 0;
+    position: relative;
+    right: 8%;
+}
+
+#second-page span {
+    align-self: stretch;
+    height: 25px;
+    position: relative;
+    left: 12%;
+    top: 10%;
+}
+
+
 #third-page {
     background-image: url(img/artworks.jpg);
-    color: #746962;
+    color: #d3c9c2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
 #fourth-page {
     background-image: url(img/57.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+
+#fourth-page-items p {
+    margin: 10%;
+}
+
+#fourth-page-items a {
+    margin: 7%;
+}
+
+.page-link {
+    display: block;
 }
 
 #fifth-page {
-    height: 100%;
+    background-image: url(img/43.jpg);
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
 }
 
+#fifth-page span {
+    margin-bottom: 8%;
+    margin-right: 5%;
+}
+
+#fifth-page span p{
+    margin-bottom: 5%;
+}
+
+
+#fifth-page span a{
+    margin-top: 10%;
+    align-self: left;
+}
+
+
 #sixth-page {
-    height: 100%;
-    background-color: #746962;
+    background-image: url(img/75.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#sixth-page-items {
+    align-self: flex-end;
+    margin: 5%;
+}
+
+#sixth-page-items p {
+    margin-bottom: 4%;
+}
+
+#sixth-page-items a {
+    margin-bottom: 4%;
 }
 
 #seventh-page {
     background-image: url(img/81.jpg);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end
+}
+
+#seventh-page-items {
+    margin: 5%;
+}
+
+#seventh-page-items p {
+    margin-bottom: 4%;
 }
 
 #eighth-page {
     background-image: url(img/74.jpg);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end
+}
+
+#eighth-page-items{
+    margin: 5%;
+}
+
+#eighth-page-items p{
+    margin-bottom: 5%;
 }
 
 #ninth-page {
     background-image: url(img/38.jpg);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end
+}
+
+#ninth-page-items {
+    margin: 5%;
+}
+
+#ninth-page-items p{
+    margin-bottom: 5%;
 }
 
 #tenth-page {
     background-image: url(img/36.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
+
+#tenth-page-items {
+    margin: 3%;
+}
+
+#tenth-page-items a {
+    margin-top: 1%;
+}
 
 #eleventh-page {
     background-image: url(img/0000.jpg);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end
 }
+
+#eleventh-page-items {
+    margin: 2%;
+}
+
+#eleventh-page-items p, #eleventh-page-items a {
+    margin-bottom: 4%;
+}
+
 
 #twelft-page {
     background-image: url(img/1.jpg);
+    display: flex;
+}
+
+#twelft-page span {
+    margin: 4%;
 }
 
 #link-of-interest {
     background-image: url(img/links-of-interest.jpg);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #contact-page {
     background-image: url(img/contact.jpg);
+    font-size: 40px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+}
+
+#contact-items {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+    margin-right: 5%;
+}
+
+#contact-items span {
+    margin: 10px;
+}
+
+.page-link-2 {
+    font-size: 40px;
+    margin-left: 2%;
 }
