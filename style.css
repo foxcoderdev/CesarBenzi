@@ -12,26 +12,30 @@ body, html {
     height: 100%;
     font-family: "Codec Pro Thin", Verdana, Tahoma;
     color: white;
+    font-size:100%;
+    overflow-x: hidden;
     
   }
 
 .page-title-1 {
-    font-size: 100px;
+    font-size: 7rem;
 }
 
 .page-title-2 {
-    font-size: 60px;
+    font-size: 3.5rem;
 }
 
 .bio-text {
-    font-size: 17px;
+    font-size: 1rem;
     font-weight: 500;
     width: 57%;
     line-height: 18pt;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 p {
-    font-size: 30px;
+    font-size: 3rem;
 }
 
 .page {
@@ -64,13 +68,9 @@ p {
     padding: 15px;
 }
 
-#main-title {
-    font-size: 80px; font-weight: 400; font-style: normal; text-decoration: none;
-}
-
 
 a {
-    font-size: 25px;
+    font-size: 2rem;
     color: white;
 }
 
@@ -79,7 +79,7 @@ a:link:visited:hover:active {
 }
 
 .page-link {
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 /* Second Page */
@@ -91,13 +91,13 @@ a:link:visited:hover:active {
 
 #second-page img {
     height: 100%;
+    max-width: 100%;
     margin-right: 0;
     position: relative;
     right: 8%;
 }
 
 #second-page span {
-    align-self: stretch;
     height: 25px;
     position: relative;
     left: 12%;
@@ -122,13 +122,13 @@ a:link:visited:hover:active {
     justify-content: flex-start;
 }
 
-
-#fourth-page-items p {
-    margin: 10%;
+#fourth-page-items {
+    margin: 2%;
+    text-align: right;
 }
 
-#fourth-page-items a {
-    margin: 7%;
+#fourth-page-items p, #fourth-page-items a{
+    margin-bottom: 5%;
 }
 
 .page-link {
@@ -168,6 +168,7 @@ a:link:visited:hover:active {
 #sixth-page-items {
     align-self: flex-end;
     margin: 5%;
+    text-align: right;
 }
 
 #sixth-page-items p {
@@ -187,6 +188,7 @@ a:link:visited:hover:active {
 
 #seventh-page-items {
     margin: 5%;
+    text-align: right;
 }
 
 #seventh-page-items p {
@@ -217,6 +219,7 @@ a:link:visited:hover:active {
 
 #ninth-page-items {
     margin: 5%;
+    text-align: right;
 }
 
 #ninth-page-items p{
@@ -248,6 +251,7 @@ a:link:visited:hover:active {
 
 #eleventh-page-items {
     margin: 2%;
+    text-align: right;
 }
 
 #eleventh-page-items p, #eleventh-page-items a {
@@ -260,8 +264,12 @@ a:link:visited:hover:active {
     display: flex;
 }
 
-#twelft-page span {
-    margin: 4%;
+#twelft-page-items {
+    margin: 5%;
+}
+
+#twelft-page-items p{
+    margin-bottom: 2%;
 }
 
 #link-of-interest {
@@ -273,7 +281,7 @@ a:link:visited:hover:active {
 
 #contact-page {
     background-image: url(img/contact.jpg);
-    font-size: 40px;
+    font-size: 2.5rem;
     display: flex;
     flex-direction: column-reverse;
     align-items: flex-end;
@@ -286,11 +294,60 @@ a:link:visited:hover:active {
     margin-right: 5%;
 }
 
-#contact-items span {
-    margin: 10px;
-}
 
 .page-link-2 {
-    font-size: 40px;
-    margin-left: 2%;
+    font-size: 2.5rem;
+    text-decoration: none;
+    margin-top: 10px;
 }
+
+
+@media (min-width: 320px) and (max-width: 950px) {
+    .page-title-1 {
+        font-size: 4.5rem;
+    }
+
+    #second-page img {
+        height: 50%;
+        margin-top: 23%;
+    }
+
+    #second-page span {
+        height: 30%;
+        bottom: 100%;
+    }
+
+    .bio-text {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    #third-page .page-title-1 {
+        font-size: 2.5rem;
+    }
+
+    .page-title-2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 0.50rem;
+    }
+
+    a {
+        font-size: 1.3rem;
+    }
+
+    .page-link {
+        font-size: 1rem;
+    }
+
+    #contact-page {
+        font-size: 1.1rem;
+    }
+
+    .page-link-2 {
+        font-size: 1.1rem;
+        margin-top: 10px;
+    }
+  }
