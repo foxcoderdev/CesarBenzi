@@ -119,8 +119,21 @@ a:link:visited:hover:active {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    justify-content: flex-start;
 }
 
+
+#fourth-page-items p {
+    margin: 10%;
+}
+
+#fourth-page-items a {
+    margin: 7%;
+}
+
+.page-link {
+    display: block;
+}
 
 #fifth-page {
     background-image: url(img/43.jpg);
@@ -134,49 +147,121 @@ a:link:visited:hover:active {
     margin-right: 5%;
 }
 
+#fifth-page span p{
+    margin-bottom: 5%;
+}
+
+
 #fifth-page span a{
-    margin-top: 20%;
+    margin-top: 10%;
     align-self: left;
 }
 
 
 #sixth-page {
-    height: 100%;
-    background-color: #746962;
+    background-image: url(img/75.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
-#sixth-page img {
-    height: 100%;
-    margin-right: 0%
+#sixth-page-items {
+    align-self: flex-end;
+    margin: 5%;
+}
+
+#sixth-page-items p {
+    margin-bottom: 4%;
+}
+
+#sixth-page-items a {
+    margin-bottom: 4%;
 }
 
 #seventh-page {
     background-image: url(img/81.jpg);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end
+}
+
+#seventh-page-items {
+    margin: 5%;
+}
+
+#seventh-page-items p {
+    margin-bottom: 4%;
 }
 
 #eighth-page {
     background-image: url(img/74.jpg);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end
+}
+
+#eighth-page-items{
+    margin: 5%;
+}
+
+#eighth-page-items p{
+    margin-bottom: 5%;
 }
 
 #ninth-page {
     background-image: url(img/38.jpg);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end
+}
+
+#ninth-page-items {
+    margin: 5%;
+}
+
+#ninth-page-items p{
+    margin-bottom: 5%;
 }
 
 #tenth-page {
     background-image: url(img/36.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
+
+#tenth-page-items {
+    margin: 3%;
+}
+
+#tenth-page-items a {
+    margin-top: 1%;
+}
 
 #eleventh-page {
     background-image: url(img/0000.jpg);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end
 }
+
+#eleventh-page-items {
+    margin: 2%;
+}
+
+#eleventh-page-items p, #eleventh-page-items a {
+    margin-bottom: 4%;
+}
+
 
 #twelft-page {
     background-image: url(img/1.jpg);
+    display: flex;
 }
 
 #twelft-page span {
-    margin-right: 10%;
+    margin: 4%;
 }
 
 #link-of-interest {
@@ -203,4 +288,9 @@ a:link:visited:hover:active {
 
 #contact-items span {
     margin: 10px;
+}
+
+.page-link-2 {
+    font-size: 40px;
+    margin-left: 2%;
 }
