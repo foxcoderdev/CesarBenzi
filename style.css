@@ -252,7 +252,7 @@ a:link:visited:hover:active {
 
 #eleventh-page {
     background-image: url(img/0000.jpg);
-    background-position: center;
+    background-position: top;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end
