@@ -3,7 +3,7 @@ const languageLinkEN = document.getElementById('language-link-en');
 
 languageLinkES.addEventListener('click', (e) => {
     e.preventDefault();
-    document.body.innerHTML = /* html */ `<!-- first page --> 
+    document.body.innerHTML = /* html */ `
     <div class="page" id="index-page">
         <p class="page-title-1">césar benzi</p>
         <span>
@@ -12,7 +12,6 @@ languageLinkES.addEventListener('click', (e) => {
         </span>
     </div>
 
-    <!-- second page --> 
     <div class="page" id="second-page">
         <span>
             <p class="page-title-2">bio</p>
@@ -26,26 +25,23 @@ languageLinkES.addEventListener('click', (e) => {
         <img src="img/62.jpg" alt="BIO">
     </div>
 
-    <!-- third page -->
     <div class="page" id="third-page">
         <p class="page-title-1">obras</p>
         <span></span>
         <span></span>
     </div>
 
-    <!-- fourth page -->
     <div class="page" id="fourth-page">
         <div id="fourth-page-items">
             <p class="page-title-2">"intangible con fuga"</p>
             <p class="page-title-2">(instalación)</p>
-            <a class="page-link" href="https://www.youtube.com/watch?v=7wdVyU1WkzY&feature=youtu.be">work in progress</a>
-            <a class="page-link" href="https://www.canva.com/design/DAE_AkWK4eM/LwycXMmKoyRv-E8R4EJO7g/view?website#2:of-light-and-shadow...-by-architect-marcelo-olmos-light-and-shadow-an-endless-dialogue-established-in-art-for-centuries.-ever-since-giotto-modeled-color-and-abandoned-the-fretwork-style-the-play-of-light-has-been-a-constant.-the-dramatic-light-of-caravaggio-the-intimate-light-of-rembrandt-and-the-perceived-light-of-impressionism-are-all-ways-of-capturing-the-transience-of-the-moment.-other-times-other-lights-appear-with-new-languages-new-needs-andnew-contexts-and-they-are-no-longer-on-the-plane-in-painting.-now-they-are-present-in-space-they-materialize-and-provoke-or-invoke-us-thanks-to-new-technologies-or-old-materials-but-with-a-revamped-function.-some-artists-work-with-light-in-search-of-stimulating-sensations-in-the-observer-seeking-to-repeat-anguish-and-calls-to-the-darkest-past.-it-is-a-territory-of-lights-and-shadows-which-awaken-the-vague-sensation-that-something-disturbing-lurking-is-lurking-nearby.-the-constant-of-calling-fearsome-sensations-or-simply-causing-astonishment-by-the-complicated-handling-of-abundant-technologies-expensive-and-complex-supports-but-that-in-essence-say-nothing-or-little.-they-are-just-moments-without-answers.-it-is-only-contemplation-of-pretentious-boasts.-there-are-other-ways-to-play-with-light.-c-sar-benzi-does-it-with-glass-as-a-receiving-material-but-what-he-proposes-is-to-provoke-the-shadow-the-faint-shadow-of-the-fleeting-sunset-of-the-unique-situations-that-barely-touch-us-and-we-feel-likea-refreshing-contact.-cesar-benzi-s-domain-is-that-subtle-faded-shadow-the-border-between-the-dazzling-brilliance-and-the-fleetingness-of-his-step.-benzi-s-is-the-minimum-moment-that-the-shadow-allows-us-to-barely-glimpse-other-instances-other-movements-other-possibilities.">texto arq. marcelo olmos</a>
-            <a class="page-link" href="https://www.canva.com/design/DAE_AhfXVdk/taf63XmqBmRbGYiVDbi6Jg/view?website#2:object-artists-in-santa-fe-topics-11-national-academy-of-fine-arts-2013-by-arch.-carlos-mar-a-reinante-...-the-present-work-intends-to-show-the-work-carried-out-in-the-province-of-santa-fe-by-object-artists.-as-in-any-gaze-an-intentional-charge-locates-the-search-prescribes-its-scope-and-justifies-the-choice-of-works-recently-made-by-creators-from-rosario-santa-fe-esperanza-and-rafaela.-works-and-authors-that-despite-belonging-to-different-generations-coming-from-varied-backgrounds-and-experiences-and-materializing-very-different-registers-and-meanings-nonetheless-appear-centered-within-the-same-productive-microclimate-a-microclimate-in-which-the-conceptual-and-referential-consideration-of-objects-a-particular-ontology-and-unifying-contemporaneity.-the-objectualist-work-of-the-santa-fe-filmmakers-covers-a-wide-range-of-creations-of-a-three-dimensional-spatial-nature-but-none-of-them-chooses-to-literally-swindle-or-resignify-the-objects-of-consumer-society.-they-are-ad-hoc-objects-created-expressly-to-unfold-a-specific-and-properly-intentional-existence-objects-that-are-revealed-as-forms-in-the-platonic-sense-of-the-eidos-in-its-triple-productive-condition-they-start-from-an-inner-will-subjectivity-or-project-they-determine-an-ideal-ordering-of-the-world-language-or-codification-and-they-are-build-as-a-symbolic-artifact-as-the-foundation-of-a-culture-ideal-community-historical-artistic-dimension-etc.-in-this-way-and-continuing-with-the-platonic-concept-we-close-this-introduction-with-the-idea-that-the-object-is-something-that-opens-access-to-seeing.-...-c-sar-benzi-general-belgrano-colony-santa-fe-1981-benzi-affirms-the-object-brings-me-closer-to-space.-i-need-the-objectual-and-transparent-medium-to-transfer-a-concept-of-intangibility-.-as-a-configuration-of-what-is-almost-imperceptible.-articulating-a-certain-number-of-lines-and-spheres-i-create-a-structure-with-an-object-entity.">texto arq. carlos m. reinante</a>
+            <a class="page-link" href="https://www.youtube.com/watch?v=7wdVyU1WkzY&feature=youtu.be">trabajo en progreso</a>
+            <a class="page-link" href="https://www.canva.com/design/DAE_Au7Jkn0/Bh8mkbS2NVvc-OxKSkWpGQ/view?website#2:de-luces-y-sombras...-por-arq.-marcelo-olmos-luz-y-sombra-constate-dialogo-establecido-en-el-arte-desde-hace-siglos.-desde-que-giotto-modelo-el-color-y-abandono-la-manera-a-la-greca-el-juego-de-la-luz-se-situ-como-una-constante.-la-dram-tica-luz-del-caravaggio-la-luz-intima-de-rembrandt-la-luz-percibida-del-impresionismo-todas-maneras-de-atrapar-la-fugacidad-del-instante.-otros-tiempos-otras-luces-aparecen-con-nuevos-lenguajes-nuevas-necesidades-nuevos-contextos-y-ya-no-son-en-el-plano-en-la-pintura.-ahora-est-n-presentes-en-el-espacio-se-materializan-y-nos-provocan-o-nos-invocan-de-la-mano-de-nuevas-tecnolog-as-o-de-materiales-viejos-pero-remozados-en-su-funci-n.-hay-artistas-que-trabajan-la-luz-en-busca-de-sensaciones-estimuladas-en-el-observador-buscando-repetir-angustias-y-llamados-al-pasado-m-s-oscuro.-es-un-territorio-de-luces-y-sombras-que-despiertan-la-vaga-sensaci-n-de-que-algo-inquietante-acechante-ronda-cerca.-la-constante-de-llamar-temibles-sensaciones-o-simplemente-causar-asombro-por-el-complicado-manejo-de-tecnolog-as-abundantes-soportes-costosos-y-complejos-pero-que-en-esencia-no-dicen-nada-o-poco.-son-solo-instantes-sin-respuestas.-solo-es-contemplaci-n-de-alardes-pretenciosos.-hay-otras-maneras-de-jugar-con-la-luz.-c-sar-benzi-lo-hace-con-el-cristal-como-materia-receptora-pero-lo-que-el-se-propone-es-provocar-la-sombra-la-tenue-sombra-del-atardecer-fugaz-de-las-situaciones-nicas-que-apenas-nos-rozan-y-sentimos-como-refrescante-contacto.-el-dominio-de-cesar-benzi-es-esa-penumbra-sutil-esfumada-la-frontera-entre-el-brillo-deslumbrante-y-la-fugacidad-de-su-paso.-lo-de-benzi-es-el-momento-m-nimo-que-la-sombra-nos-permite-apenas-vislumbrar-otras-instancias-otros-movimientos-otras-posibilidades.</a>
+            <a class="page-link" href="https://www.canva.com/design/DAE_AuJDTXE/8AISDXIs-VowA_b8PmsWmg/view?website#2:agrega-artistas-objetualistas-en-santa-fe-temas-11-academia-nacional-de-bellas-artes-2013-por-arq.-carlos-mar-a-reinante-...-el-presente-trabajo-pretende-dar-a-conocer-la-obra-realizada-en-la-provincia-de-santa-fe-por-artistas-objetualistas.-como-en-toda-mirada-una-carga-intencional-localiza-la-b-squeda-prescribe-sus-alcances-y-justifica-la-elecci-n-de-trabajos-recientemente-realizados-por-creadores-de-rosario-santa-fe-esperanza-y-rafaela.-obras-y-autores-que-pese-a-pertenecer-a-distintas-generaciones-provenir-de-variadas-formaciones-y-experiencias-y-materializar-registros-y-significados-muy-diferentes-aparecen-sin-embargo-centrados-dentro-de-un-mismo-microclima-productivo-un-microclima-en-el-que-sobrevuela-la-consideraci-n-conceptual-y-referencial-de-los-objetos-una-particular-ontolog-a-y-contemporaneidad-aglutinante.-la-obra-objetualista-de-los-realizadores-santafesinos-recorre-un-amplio-arco-de-creaciones-de-naturaleza-tridimensional-espacial-pero-ninguno-de-ellos-elige-timar-literalmente-o-resignificar-los-objetos-de-la-sociedad-de-consumo.-son-objetos-ad-hoc-creados-ex-profeso-para-desplegar-una-existencia-espec-fica-y-propiamente-intencional-objetos-que-se-revelan-como-formas-en-el-sentido-plat-nico-del-eidos-en-su-triple-condici-n-productiva-parten-de-una-voluntad-interior-subjetividad-o-proyecto-determinan-un-ordenamiento-ideal-de-mundo-lenguaje-o-codificaci-n-y-se-erigen-como-artefacto-simb-lico-como-fundamento-de-una-cultura-comunidad-ideal-dimensi-n-hist-rica-art-stica-etc.-de-este-modo-y-siguiendo-con-el-concepto-plat-nico-cerramos-esta-introducci-n-con-la-idea-de-que-el-objeto-es-algo-a-lo-que-el-ver-abre-el-acceso.-...-c-sar-benzi-colonia-gral.-belgrano-santa-fe-1981-afirma-benzi-el-objeto-me-aproxima-al-espacio.-necesito-del-medio-objetual-y-transparente-para-transferir-un-concepto-de-intangibilidad-.-como-configuraci-n-de-aquello-que-est-casi-imperceptible.-articulando-determinada-cantidad-de-l-neas-y-esferas-creo-una-estructura-con-entidad-de-objeto.">texto arq. carlos m. reinante</a>
             <a class="page-link" href="https://www.canva.com/design/DAE-32KJ8Do/WrSk6JueerKL3hrxZFrUNQ/view?website#2">+fotos</a>
         </div>
     </div>
 
-    <!-- fifth page -->
     <div class="page" id="fifth-page">
         <span>
             <p class="page-title-2">"amor seco"</p>
@@ -53,8 +49,6 @@ languageLinkES.addEventListener('click', (e) => {
             <a class="page-link" href="https://www.canva.com/design/DAE-9llKbe4/IHnHguXS4CHH0RxrRdyASg/view?website#2">+fotos</a>
         </span>
     </div>
-
-    <!-- sixth page -->
     <div class="page" id="sixth-page">
         <span id="sixth-page-items">
             <p class="page-title-2">"expiraciones"</p>
@@ -64,8 +58,6 @@ languageLinkES.addEventListener('click', (e) => {
             <a class="page-link" href="https://www.rafaela.gob.ar/museo/PatrimonioVer.aspx?i=196">patrimonio</a>
         </span>
     </div>
-
-    <!-- seventh page -->
     <div class="page" id="seventh-page">
         <span id="seventh-page-items">
             <p class="page-title-2">"sincronización de"</p>
@@ -75,8 +67,6 @@ languageLinkES.addEventListener('click', (e) => {
             <a class="page-link" href="https://www.canva.com/design/DAE-93xfEAA/AG0nd-bOlYkcp3PCvYgo8g/view?website#2:p-gina-2">+fotos</a>
         </span>
     </div>
-
-    <!-- eighth page -->
     <div class="page" id="eighth-page">
         <span id="eighth-page-items">
        <p class="page-title-2">"blanco"</p>
@@ -85,7 +75,6 @@ languageLinkES.addEventListener('click', (e) => {
         </span>
     </div>
 
-    <!-- ninth page -->
     <div class="page" id="ninth-page">
         <span id="ninth-page-items">
             <p class="page-title-2">"romanza"</p>
@@ -94,8 +83,6 @@ languageLinkES.addEventListener('click', (e) => {
             <a class="page-link" href="https://www.canva.com/design/DAE-99og8Ao/ce2721gfroLlaIRR1kgoMw/view?website#2:p-gina-1">+fotos</a>
         </span>
     </div>
-
-       <!-- tenth page -->
     <div class="page" id="tenth-page">
         <span id="tenth-page-items">
             <p class="page-title-2">"lo intangible"</p>
@@ -105,7 +92,6 @@ languageLinkES.addEventListener('click', (e) => {
         </span>
     </div>
 
-    <!-- eleventh page -->
     <div class="page" id="eleventh-page">
         <span id="eleventh-page-items">
             <p class="page-title-2">"humanos"</p>
@@ -115,7 +101,6 @@ languageLinkES.addEventListener('click', (e) => {
         </span>
     </div>
 
-    <!-- twelft page -->
         <div class="page" id="twelft-page">
             <span id="twelft-page-items">
                 <p class="page-title-2">"el origen"</p>
@@ -124,14 +109,12 @@ languageLinkES.addEventListener('click', (e) => {
             </span>
     </div>
 
-       <!-- Link of Interests page -->
        <div class="page" id="link-of-interest">
          <p class="page-title-2">enlaces de interés</p>
          <span></span>
          <span></span>
        </div>
 
-       <!-- contact page -->
        <div class="page" id="contact-page">
         <div id="contact-items">
             <span><i class="fa-solid fa-square-envelope"></i> benzicesar@gmail.com</span>
@@ -153,7 +136,6 @@ languageLinkEN.addEventListener('click', (e) => {
         </span>
     </div>
 
-    <!-- second page --> 
     <div class="page" id="second-page">
         <span>
             <p class="page-title-2">bio</p>
@@ -166,14 +148,12 @@ languageLinkEN.addEventListener('click', (e) => {
         <img src="img/62.jpg" alt="BIO">
     </div>
 
-    <!-- third page -->
     <div class="page" id="third-page">
         <p class="page-title-1">artworks</p>
         <span></span>
         <span></span>
     </div>
 
-    <!-- fourth page -->
     <div class="page" id="fourth-page">
         <div id="fourth-page-items">
             <p class="page-title-2">"intangible with leak"</p>
@@ -185,7 +165,6 @@ languageLinkEN.addEventListener('click', (e) => {
         </div>
     </div>
 
-    <!-- fifth page -->
     <div class="page" id="fifth-page">
         <span>
             <p class="page-title-2">"dry love"</p>
@@ -194,7 +173,7 @@ languageLinkEN.addEventListener('click', (e) => {
         </span>
     </div>
 
-    <!-- sixth page -->
+
     <div class="page" id="sixth-page">
         <span id="sixth-page-items">
             <p class="page-title-2">"expirations"</p>
@@ -205,7 +184,6 @@ languageLinkEN.addEventListener('click', (e) => {
         </span>
     </div>
 
-    <!-- seventh page -->
     <div class="page" id="seventh-page">
         <span id="seventh-page-items">
             <p class="page-title-2">"death sync"</p>
@@ -215,7 +193,6 @@ languageLinkEN.addEventListener('click', (e) => {
         </span>
     </div>
 
-    <!-- eighth page -->
     <div class="page" id="eighth-page">
         <span id="eighth-page-items">
        <p class="page-title-2">"white" </p>
@@ -224,7 +201,6 @@ languageLinkEN.addEventListener('click', (e) => {
         </span>
     </div>
 
-    <!-- ninth page -->
     <div class="page" id="ninth-page">
         <span id="ninth-page-items">
             <p class="page-title-2">"romance"</p>
@@ -234,7 +210,6 @@ languageLinkEN.addEventListener('click', (e) => {
         </span>
     </div>
 
-       <!-- tenth page -->
     <div class="page" id="tenth-page">
         <span id="tenth-page-items">
             <p class="page-title-2">"the intangible"</p>
@@ -244,7 +219,6 @@ languageLinkEN.addEventListener('click', (e) => {
         </span>
     </div>
 
-    <!-- eleventh page -->
     <div class="page" id="eleventh-page">
         <span id="eleventh-page-items">
             <p class="page-title-2">"dancing humans"</p>
@@ -253,7 +227,6 @@ languageLinkEN.addEventListener('click', (e) => {
         </span>
     </div>
 
-    <!-- twelft page -->
         <div class="page" id="twelft-page">
             <span id="twelft-page-items">
                 <p class="page-title-2">"the origin"</p>
@@ -262,14 +235,12 @@ languageLinkEN.addEventListener('click', (e) => {
             </span>
     </div>
 
-       <!-- Link of Interests page -->
        <div class="page" id="link-of-interest">
          <p class="page-title-2">links of interest</p>
          <span></span>
          <span></span>
        </div>
 
-       <!-- contact page -->
        <div class="page" id="contact-page">
         <div id="contact-items">
             <span><i class="fa-solid fa-square-envelope"></i> benzicesar@gmail.com</span>
