@@ -32,6 +32,8 @@ body, html {
     line-height: 18pt;
     text-overflow: ellipsis;
     overflow: hidden;
+    text-justify: inter-word;
+    text-align: justify;
 }
 
 p {
@@ -103,6 +105,7 @@ a:link:visited:hover:active {
     position: relative;
     left: 12%;
     top: 10%;
+
 }
 
 
@@ -148,6 +151,7 @@ a:link:visited:hover:active {
 #fifth-page span {
     margin-bottom: 8%;
     margin-right: 5%;
+    text-align: right;
 }
 
 #fifth-page span p{
@@ -210,6 +214,7 @@ a:link:visited:hover:active {
 
 #eighth-page-items{
     margin: 5%;
+    text-align: right;
 }
 
 #eighth-page-items p{
