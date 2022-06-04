@@ -288,12 +288,22 @@ a:link:visited:hover:active {
 }
 
 #link-of-interest {
-    background-image: url(img/links-of-interest.jpg);
+    background-color: #746962;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    flex-direction: row;
 }
 
+#links-title {
+    align-self: center;
+    margin-left: 10%;
+}
+
+#gif {
+    height: 40px;
+    width: 40px;
+}
 #contact-page {
     background-image: url(img/contact.jpg);
     font-size: 2.5rem;
