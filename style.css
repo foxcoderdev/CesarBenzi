@@ -1,3 +1,7 @@
+
+/* General Styles */
+
+
 @font-face {
     font-family: "Codec Pro Thin";
     src: url(font/CodecPro-Thin.ttf);
@@ -9,10 +13,9 @@
 }
 
 body, html {
-    height: 100%;
+    height: 100vh;
     font-family: "Codec Pro Thin", Verdana, Tahoma;
     color: white;
-    font-size:100%;
     overflow-x: hidden;
     
   }
@@ -23,17 +26,6 @@ body, html {
 
 .page-title-2 {
     font-size: 3.5rem;
-}
-
-.bio-text {
-    font-size: 1rem;
-    font-weight: 500;
-    width: 57%;
-    line-height: 18pt;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    text-justify: inter-word;
-    text-align: justify;
 }
 
 p {
@@ -108,15 +100,33 @@ a:link:visited:hover:active {
 
 }
 
+.bio-text {
+    font-size: 1rem;
+    font-weight: 500;
+    width: 57%;
+    line-height: 18pt;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-justify: inter-word;
+    text-align: justify;
+}
+
+/* Third Page */
 
 #third-page {
-    background-image: url(img/artworks.jpg);
+    background-color: #FFFFFF;
     color: #d3c9c2;
     display: flex;
     justify-content: space-around;
     align-items: center;
 
 }
+
+#third-page img {
+    max-height: 100%;
+}
+
+/* Fourth Page */
 
 #fourth-page {
     background-image: url(img/57.jpg);
@@ -139,6 +149,8 @@ a:link:visited:hover:active {
 .page-link {
     display: block;
 }
+
+/* Fifth Page */
 
 #fifth-page {
     background-image: url(img/43.jpg);
@@ -164,6 +176,8 @@ a:link:visited:hover:active {
     align-self: left;
 }
 
+/* Sixth Page */
+
 
 #sixth-page {
     background-image: url(img/75.jpg);
@@ -187,6 +201,10 @@ a:link:visited:hover:active {
     margin-bottom: 4%;
 }
 
+
+/* Seventh Page */
+
+
 #seventh-page {
     background-image: url(img/81.jpg);
     background-position: center;
@@ -203,6 +221,10 @@ a:link:visited:hover:active {
 #seventh-page-items p {
     margin-bottom: 4%;
 }
+
+
+/* Eighth Page */
+
 
 #eighth-page {
     background-image: url(img/74.jpg);
@@ -221,6 +243,10 @@ a:link:visited:hover:active {
     margin-bottom: 5%;
 }
 
+
+/* Ninth Page */
+
+
 #ninth-page {
     background-image: url(img/38.jpg);
     background-position: center;
@@ -237,6 +263,8 @@ a:link:visited:hover:active {
 #ninth-page-items p{
     margin-bottom: 5%;
 }
+
+/* Tenth Page */
 
 #tenth-page {
     background-image: url(img/36.jpg);
@@ -255,6 +283,8 @@ a:link:visited:hover:active {
     margin-top: 1%;
 }
 
+/* Eleventh Page */
+
 #eleventh-page {
     background-image: url(img/0000.jpg);
     background-position: top;
@@ -272,6 +302,8 @@ a:link:visited:hover:active {
     margin-bottom: 4%;
 }
 
+/* Twelft Page */
+
 
 #twelft-page {
     background-image: url(img/1.jpg);
@@ -287,6 +319,9 @@ a:link:visited:hover:active {
     margin-bottom: 2%;
 }
 
+/* Link of Interest Page */
+
+
 #link-of-interest {
     background-color: #746962;
     display: flex;
@@ -295,28 +330,32 @@ a:link:visited:hover:active {
     flex-direction: row;
 }
 
+svg {
+    max-height: auto;
+}
+
 #links-title {
     align-self: center;
     margin-left: 10%;
 }
 
-#gif {
-    height: 40px;
-    width: 40px;
-}
+/* Contact Page */
+
 #contact-page {
-    background-image: url(img/contact.jpg);
+    background-color: #746962;
     font-size: 2.5rem;
     display: flex;
-    flex-direction: column-reverse;
-    align-items: flex-end;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contact-page img {
+    max-height: 100%;
 }
 
 #contact-items {
     display: flex;
     flex-direction: column;
-    margin-bottom: 10%;
-    margin-right: 5%;
 }
 
 
@@ -327,60 +366,7 @@ a:link:visited:hover:active {
 }
 
 
+/* Media queries */
+
 @media (min-width: 320px) and (max-width: 768px) {
-    .page-title-1 {
-        font-size: 4.5rem;
-    }
-
-    #second-page img {
-        height: 50%;
-        margin-top: 23%;
-    }
-
-    #second-page span {
-        height: 30%;
-        bottom: 100%;
-    }
-
-    .bio-text {
-        font-size: 10px;
-        line-height: 10px;
-    }
-
-    #third-page .page-title-1 {
-        font-size: 2.5rem;
-    }
-
-    .page-title-2 {
-        font-size: 2rem;
-    }
-
-    p {
-        font-size: 0.50rem;
-    }
-
-    a {
-        font-size: 1.3rem;
-    }
-
-    .page-link {
-        font-size: 1rem;
-    }
-
-    #contact-page {
-        font-size: 1.1rem;
-    }
-
-    .page-link-2 {
-        font-size: 1.1rem;
-        margin-top: 10px;
-    }
   }
-
-  @media (min-width:320px) and (max-width: 801px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-    #second-page img {
-        height: 20%;
-        margin-top: 23%;
-    }
-
-}
