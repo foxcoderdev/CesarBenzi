@@ -81,23 +81,19 @@ a:link:visited:hover:active {
 
 #second-page {
     display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #746962;
 }
 
 #second-page img {
-    height: 100%;
-    max-width: 100%;
-    margin-right: 0;
-    position: relative;
-    right: 8%;
+    max-height: 100%;
+    margin-right: 8%;
 }
 
 #second-page span {
-    height: 25px;
-    position: relative;
-    left: 12%;
-    top: 10%;
-
+    height: auto;
+    margin-left: 8%;
 }
 
 .bio-text {
@@ -333,6 +329,7 @@ a:link:visited:hover:active {
 svg {
     max-height: auto;
 }
+
 
 #links-title {
     align-self: center;
