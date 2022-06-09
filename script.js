@@ -121,7 +121,7 @@ languageLinkES.addEventListener('click', (e) => {
        <div class="page" id="contact-page">
         <div id="contact-items">
             <span><i class="fa-solid fa-square-envelope"></i> benzicesar@gmail.com</span>
-            <a class="page-link-2" href="https://wa.me/+393491177129"><i class="fa-brands fa-whatsapp-square"></i><span class="contact-link">+393491177129</span></a>
+            <a class="page-link-2" href="https://wa.me/+34642993876"><i class="fa-brands fa-whatsapp-square"></i><span class="contact-link">+34642993876</span></a>
             <a class="page-link-2" href="https://www.instagram.com/cesar_benzi/"><i class="fa-brands fa-instagram-square"></i><span class="contact-link">cesar_benzi</span></a>
         </div>
         </div>
@@ -250,7 +250,7 @@ languageLinkEN.addEventListener('click', (e) => {
        <div class="page" id="contact-page">
         <div id="contact-items">
             <span><i class="fa-solid fa-square-envelope"></i> benzicesar@gmail.com</span>
-            <a class="page-link-2" href="https://wa.me/+393491177129"><i class="fa-brands fa-whatsapp-square"></i><span class="contact-link">+393491177129</span></a>
+            <a class="page-link-2" href="https://wa.me/+34642993876"><i class="fa-brands fa-whatsapp-square"></i><span class="contact-link">+34642993876</span></a>
             <a class="page-link-2" href="https://www.instagram.com/cesar_benzi/"><i class="fa-brands fa-instagram-square"></i><span class="contact-link">cesar_benzi</span></a>
         </div>
         </div>
