@@ -27,8 +27,7 @@ languageLinkES.addEventListener('click', (e) => {
 
     <div class="page" id="third-page">
         <p class="page-title-1">obras</p>
-        <span></span>
-        <span></span>
+        <img src="img/artworks.svg" alt="artworks">
     </div>
 
     <div class="page" id="fourth-page">
@@ -110,20 +109,21 @@ languageLinkES.addEventListener('click', (e) => {
     </div>
 
        <div class="page" id="link-of-interest">
-         <p class="page-title-2" id="links-title" >enlaces de interés</p>
+         <p class="page-title-2" id="links-title">enlaces de interés</p>
          <div>
-            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" xmlns="http://www.w3.org/1999/xlink" viewBox="0 0 700 480" preserveAspectRatio="xMinYMin meet" ><defs id="svgEditorDefs"><style type="text/css">.svg_a{fill:blue;cursor:pointer;}
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/1999/xlink" viewBox="0 0 700 480" preserveAspectRatio="xMinYMin meet" ><defs id="svgEditorDefs"><style type="text/css">.svg_a{fill:blue;cursor:pointer;}
             .svg_a:hover{text-decoration:underline;}
             </style></defs><line id="e1_line" x1="374.176" y1="443.776" x2="374.175" y2="358.871" style="stroke:#e8e1e1;fill:none;stroke-width:1px" transform="matrix(1, 0, 0, 1, 5.83615e-06, 1.69948e-05)"/><line id="e16_line" x1="361.494" y1="450.124" x2="328.631" y2="401.328" style="stroke:#e8e1e1;fill:none;stroke-width:1px"/><a id="e38_hyperlink" href="https://www.ellitoral.com/index.php/diarios/2012/07/17/escenariosysociedad/SOCI-13.html" target="_blank" class="svg_a"><circle id="e17_circle" cx="320.664" cy="388.382" style="fill:#e8e1e1;stroke:#e8e1e1;stroke-width:1px" r="15.1512"/></a><a id="e39_hyperlink" href="https://issuu.com/palaisdeglace/docs/folleto_16_nseiweb2" target="_blank" class="svg_a"><circle id="e18_circle" cx="373.444" cy="343.568" style="fill:#e8e1e1;stroke:#e8e1e1;stroke-width:1px" r="17.646"/></a><line id="e19_line" x1="356.514" y1="344.564" x2="260.913" y2="352.531" style="stroke:#e8e1e1;fill:none;stroke-width:1px"/><a id="e40_hyperlink" href="https://issuu.com/palaisdeglace/docs/catalogo_2014_sn" target="_blank" class="svg_a"><circle id="e20_circle" cx="248.963" cy="353.527" style="fill:#e8e1e1;stroke:#e8e1e1;stroke-width:1px" r="16.959"/></a><line id="e21_line" x1="389.378" y1="349.544" x2="502.905" y2="413.278" style="stroke:#e8e1e1;fill:none;stroke-width:1px"/><a id="e37_hyperlink" href="https://www.youtube.com/watch?v=KS19xQU00Ck&amp;feature=youtu.be" target="_blank" class="svg_a"><circle id="e22_circle" cx="516.846" cy="419.253" style="fill:#e8e1e1;stroke:#e8e1e1;stroke-width:1px" r="17.814"/></a><line id="e24_line" x1="385.394" y1="330.622" x2="457.095" y2="227.054" style="stroke:#e8e1e1;fill:none;stroke-width:1px"/><a id="e41_hyperlink" href="https://www.unl.edu.ar/mac/index.php?act=showMuestra&amp;idMuestra=7" target="_blank" class="svg_a"><circle id="e25_circle" cx="466.058" cy="212.116" style="fill:#e8e1e1;stroke:#e8e1e1;stroke-width:1px" r="17.2949"/></a><line id="e26_line" x1="452.116" y1="203.154" x2="360.498" y2="149.378" style="stroke:#e8e1e1;fill:#e8e1e1;stroke-width:1px"/><a id="e42_hyperlink"  href="http://lisalondebecariosprovsantafe.blogspot.com/" target="_blank" class="svg_a"><circle id="e27_circle" cx="349.543" cy="142.406" style="fill:#e8e1e1;stroke:#e8e1e1;stroke-width:1px" r="16.4106"/></a><line id="e28_line" x1="334.606" y1="134.44" x2="268.88" y2="89.627" style="stroke:#e8e1e1;fill:#e8e1e1;stroke-width:1px"/><a id="e43_hyperlink" href="https://www.ellitoral.com/index.php/diarios/2014/10/31/escenariosysociedad/SOCI-09.html" target="_blank" class="svg_a"><circle id="e29_circle" cx="259.917" cy="82.6557" style="fill:#e8e1e1;stroke:#e8e1e1;stroke-width:1px" r="14.154"/></a><line id="e30_line" x1="268.88" y1="73.6928" x2="316.68" y2="32.863" style="stroke:#e8e1e1;fill:#e8e1e1;stroke-width:1px"/><a id="e44_hyperlink" href="https://www.youtube.com/watch?v=3bXuVWRQxos&amp;feature=youtu.be" target="_blank" class="svg_a"><circle id="e31_circle" cx="327.635" cy="22.9049" style="fill:#e8e1e1;stroke:#e8e1e1;stroke-width:1px" r="14.804"/></a><line id="e32_line" x1="338.589" y1="32.8632" x2="404.315" y2="68.7141" style="stroke:#e8e1e1;fill:none;stroke-width:1px"/><line id="e33_line" x1="341.577" y1="22.905" x2="461.079" y2="23.9" style="stroke:#e8e1e1;fill:none;stroke-width:1px"/><a id="e46_hyperlink" href="https://www.youtube.com/watch?v=KWJaF8UOK3s&amp;feature=youtu.be" target="_blank" class="svg_a"><circle id="e34_circle" cx="414.274" cy="75.6849" style="fill:#e8e1e1;stroke:#e8e1e1;stroke-width:1px" r="15.7876"/></a><a id="e45_hyperlink" href="https://www.rafaela.gob.ar/museo/PatrimonioVer.aspx?i=196" target="_blank" class="svg_a"><circle id="e3_circle" cx="478.008" cy="25.892" style="fill:#e8e1e1;stroke:#e8e1e1;stroke-width:1px" r="17.2949"/></a><a id="e36_hyperlink" href="https://www.youtube.com/watch?v=DVV4Tokmhw4&amp;feature=youtu.be" target="_blank" class="svg_a"><circle id="e2_circle" cx="375.947" cy="467.976" style="fill:#E8E1E1;stroke-width:1px;stroke:#E8E1E1" r="18.5277" transform="matrix(0.84375, 0, 0, 0.84375, 55.9756, 63.9004)"/></a></svg>
         </div>
        </div>
 
        <div class="page" id="contact-page">
-        <div id="contact-items">
-            <span><i class="fa-solid fa-square-envelope"></i> benzicesar@gmail.com</span>
-            <a class="page-link-2" href="https://wa.me/+34642993876"><i class="fa-brands fa-whatsapp-square"></i><span class="contact-link">+34642993876</span></a>
-            <a class="page-link-2" href="https://www.instagram.com/cesar_benzi/"><i class="fa-brands fa-instagram-square"></i><span class="contact-link">cesar_benzi</span></a>
-        </div>
+            <img src="img/contact.svg" alt="contact">
+            <div id="contact-items">
+                <span><i class="fa-solid fa-square-envelope"></i> benzicesar@gmail.com</span>
+                <a class="page-link-2" href="https://wa.me/+34642993876"><i class="fa-brands fa-whatsapp-square"></i><span class="contact-link">+34642993876</span></a>
+                <a class="page-link-2" href="https://www.instagram.com/cesar_benzi/"><i class="fa-brands fa-instagram-square"></i><span class="contact-link">cesar_benzi</span></a>
+            </div>
         </div>
   `;
 })
@@ -153,8 +153,7 @@ languageLinkEN.addEventListener('click', (e) => {
 
     <div class="page" id="third-page">
         <p class="page-title-1">artworks</p>
-        <span></span>
-        <span></span>
+        <img src="img/artworks.svg" alt="artworks">
     </div>
 
     <div class="page" id="fourth-page">
@@ -236,23 +235,24 @@ languageLinkEN.addEventListener('click', (e) => {
                 <p class="page-title-2"> (ceramics)</p>
                 <a class="page-link" href="https://www.canva.com/design/DAE--KE2WDE/4JYYkp2KKr7QKYUvfNGOJA/view?website#2">+photos</a>
             </span>
-    </div>
+        </div>
 
        <div class="page" id="link-of-interest">
          <p class="page-title-2" id="links-title">links of interest</p>
          <div>
-            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" xmlns="http://www.w3.org/1999/xlink" viewBox="0 0 700 480" preserveAspectRatio="xMinYMin meet" ><defs id="svgEditorDefs"><style type="text/css">.svg_a{fill:blue;cursor:pointer;}
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/1999/xlink" viewBox="0 0 700 480" preserveAspectRatio="xMinYMin meet" ><defs id="svgEditorDefs"><style type="text/css">.svg_a{fill:blue;cursor:pointer;}
             .svg_a:hover{text-decoration:underline;}
             </style></defs><line id="e1_line" x1="374.176" y1="443.776" x2="374.175" y2="358.871" style="stroke:#e8e1e1;fill:none;stroke-width:1px" transform="matrix(1, 0, 0, 1, 5.83615e-06, 1.69948e-05)"/><line id="e16_line" x1="361.494" y1="450.124" x2="328.631" y2="401.328" style="stroke:#e8e1e1;fill:none;stroke-width:1px"/><a id="e38_hyperlink" href="https://www.ellitoral.com/index.php/diarios/2012/07/17/escenariosysociedad/SOCI-13.html" target="_blank" class="svg_a"><circle id="e17_circle" cx="320.664" cy="388.382" style="fill:#e8e1e1;stroke:#e8e1e1;stroke-width:1px" r="15.1512"/></a><a id="e39_hyperlink" href="https://issuu.com/palaisdeglace/docs/folleto_16_nseiweb2" target="_blank" class="svg_a"><circle id="e18_circle" cx="373.444" cy="343.568" style="fill:#e8e1e1;stroke:#e8e1e1;stroke-width:1px" r="17.646"/></a><line id="e19_line" x1="356.514" y1="344.564" x2="260.913" y2="352.531" style="stroke:#e8e1e1;fill:none;stroke-width:1px"/><a id="e40_hyperlink" href="https://issuu.com/palaisdeglace/docs/catalogo_2014_sn" target="_blank" class="svg_a"><circle id="e20_circle" cx="248.963" cy="353.527" style="fill:#e8e1e1;stroke:#e8e1e1;stroke-width:1px" r="16.959"/></a><line id="e21_line" x1="389.378" y1="349.544" x2="502.905" y2="413.278" style="stroke:#e8e1e1;fill:none;stroke-width:1px"/><a id="e37_hyperlink" href="https://www.youtube.com/watch?v=KS19xQU00Ck&amp;feature=youtu.be" target="_blank" class="svg_a"><circle id="e22_circle" cx="516.846" cy="419.253" style="fill:#e8e1e1;stroke:#e8e1e1;stroke-width:1px" r="17.814"/></a><line id="e24_line" x1="385.394" y1="330.622" x2="457.095" y2="227.054" style="stroke:#e8e1e1;fill:none;stroke-width:1px"/><a id="e41_hyperlink" href="https://www.unl.edu.ar/mac/index.php?act=showMuestra&amp;idMuestra=7" target="_blank" class="svg_a"><circle id="e25_circle" cx="466.058" cy="212.116" style="fill:#e8e1e1;stroke:#e8e1e1;stroke-width:1px" r="17.2949"/></a><line id="e26_line" x1="452.116" y1="203.154" x2="360.498" y2="149.378" style="stroke:#e8e1e1;fill:#e8e1e1;stroke-width:1px"/><a id="e42_hyperlink"  href="http://lisalondebecariosprovsantafe.blogspot.com/" target="_blank" class="svg_a"><circle id="e27_circle" cx="349.543" cy="142.406" style="fill:#e8e1e1;stroke:#e8e1e1;stroke-width:1px" r="16.4106"/></a><line id="e28_line" x1="334.606" y1="134.44" x2="268.88" y2="89.627" style="stroke:#e8e1e1;fill:#e8e1e1;stroke-width:1px"/><a id="e43_hyperlink" href="https://www.ellitoral.com/index.php/diarios/2014/10/31/escenariosysociedad/SOCI-09.html" target="_blank" class="svg_a"><circle id="e29_circle" cx="259.917" cy="82.6557" style="fill:#e8e1e1;stroke:#e8e1e1;stroke-width:1px" r="14.154"/></a><line id="e30_line" x1="268.88" y1="73.6928" x2="316.68" y2="32.863" style="stroke:#e8e1e1;fill:#e8e1e1;stroke-width:1px"/><a id="e44_hyperlink" href="https://www.youtube.com/watch?v=3bXuVWRQxos&amp;feature=youtu.be" target="_blank" class="svg_a"><circle id="e31_circle" cx="327.635" cy="22.9049" style="fill:#e8e1e1;stroke:#e8e1e1;stroke-width:1px" r="14.804"/></a><line id="e32_line" x1="338.589" y1="32.8632" x2="404.315" y2="68.7141" style="stroke:#e8e1e1;fill:none;stroke-width:1px"/><line id="e33_line" x1="341.577" y1="22.905" x2="461.079" y2="23.9" style="stroke:#e8e1e1;fill:none;stroke-width:1px"/><a id="e46_hyperlink" href="https://www.youtube.com/watch?v=KWJaF8UOK3s&amp;feature=youtu.be" target="_blank" class="svg_a"><circle id="e34_circle" cx="414.274" cy="75.6849" style="fill:#e8e1e1;stroke:#e8e1e1;stroke-width:1px" r="15.7876"/></a><a id="e45_hyperlink" href="https://www.rafaela.gob.ar/museo/PatrimonioVer.aspx?i=196" target="_blank" class="svg_a"><circle id="e3_circle" cx="478.008" cy="25.892" style="fill:#e8e1e1;stroke:#e8e1e1;stroke-width:1px" r="17.2949"/></a><a id="e36_hyperlink" href="https://www.youtube.com/watch?v=DVV4Tokmhw4&amp;feature=youtu.be" target="_blank" class="svg_a"><circle id="e2_circle" cx="375.947" cy="467.976" style="fill:#E8E1E1;stroke-width:1px;stroke:#E8E1E1" r="18.5277" transform="matrix(0.84375, 0, 0, 0.84375, 55.9756, 63.9004)"/></a></svg>
         </div>
-       </div>
+    </div>
 
        <div class="page" id="contact-page">
-        <div id="contact-items">
-            <span><i class="fa-solid fa-square-envelope"></i> benzicesar@gmail.com</span>
-            <a class="page-link-2" href="https://wa.me/+34642993876"><i class="fa-brands fa-whatsapp-square"></i><span class="contact-link">+34642993876</span></a>
-            <a class="page-link-2" href="https://www.instagram.com/cesar_benzi/"><i class="fa-brands fa-instagram-square"></i><span class="contact-link">cesar_benzi</span></a>
-        </div>
+            <img src="img/contact.svg" alt="contact">
+            <div id="contact-items">
+                <span><i class="fa-solid fa-square-envelope"></i> benzicesar@gmail.com</span>
+                <a class="page-link-2" href="https://wa.me/+34642993876"><i class="fa-brands fa-whatsapp-square"></i><span class="contact-link">+34642993876</span></a>
+                <a class="page-link-2" href="https://www.instagram.com/cesar_benzi/"><i class="fa-brands fa-instagram-square"></i><span class="contact-link">cesar_benzi</span></a>
+            </div>
         </div>
   `;
 })
