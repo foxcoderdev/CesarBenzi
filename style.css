@@ -13,29 +13,26 @@
 }
 
 body, html {
-    height: 100vh;
+    height: 100%;
     font-family: "Codec Pro Thin", Verdana, Tahoma;
     color: white;
-    overflow-x: hidden;
     
   }
 
 .page-title-1 {
-    font-size: 7rem;
+    font-size: 16vh;
 }
 
 .page-title-2 {
-    font-size: 3.5rem;
+    font-size: 9vh;
 }
 
-p {
-    font-size: 3rem;
-}
 
 .page {
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  clear: both;
 }
 
 /* First Page */
@@ -65,7 +62,7 @@ p {
 
 
 a {
-    font-size: 2rem;
+    font-size: 5vh;
     color: white;
 }
 
@@ -74,7 +71,7 @@ a:link:visited:hover:active {
 }
 
 .page-link {
-    font-size: 2rem;
+    font-size: 5.2vh;
 }
 
 /* Second Page */
@@ -82,25 +79,23 @@ a:link:visited:hover:active {
 #second-page {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #746962;
 }
 
 #second-page img {
-    max-height: 100%;
     margin-right: 8%;
+    max-height: 100%;
 }
 
 #second-page span {
-    height: auto;
     margin-left: 8%;
+    width: 35%;
 }
 
 .bio-text {
-    font-size: 1rem;
-    font-weight: 500;
-    width: 57%;
-    line-height: 18pt;
+    font-size: 2.5vh;
+    line-height: 4vh;
     text-overflow: ellipsis;
     overflow: hidden;
     text-justify: inter-word;
@@ -330,6 +325,10 @@ svg {
     max-height: auto;
 }
 
+#link-of-interest div {
+    max-height: 100%;
+}
+
 
 #links-title {
     align-self: center;
@@ -340,7 +339,7 @@ svg {
 
 #contact-page {
     background-color: #746962;
-    font-size: 2.5rem;
+    font-size: 6vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -357,7 +356,7 @@ svg {
 
 
 .page-link-2 {
-    font-size: 2.5rem;
+    font-size: 6vh;
     text-decoration: none;
     margin-top: 10px;
 }
@@ -365,5 +364,161 @@ svg {
 
 /* Media queries */
 
-@media (min-width: 320px) and (max-width: 768px) {
+/*
+@media screen and (max-width: 1250px) {
+    .page-title-1 {
+        font-size: 8vw;
+    }
+    
+    .page-title-2 {
+        font-size: 4vw;
+    }
+
+    .page-link {
+        font-size: 2vw;
+    }
+
+    a {
+        font-size: 2vw;
+    }
+
+    .bio-text {
+        font-size: 1vw;
+    }
+
+    #contact-page {
+        font-size: 2vw;
   }
+    .page-link-2 {
+    font-size: 2vw;
+    }
+
+    #link-of-interest div {
+        max-width: 100%;
+    }
+}
+*/
+
+@media screen and (max-width:500px) { 
+
+    /* General */
+
+    .page-title-1 {
+        font-size: 18.5vw;
+    }
+
+    .page-title-2 {
+        font-size: 10vw;
+    }
+
+    .page-link {
+        font-size: 7vw;
+    }
+
+    a {
+        font-size: 7vw;
+    }
+    
+    .page {
+        width: 100%;
+      }
+
+    /* First Page */
+    #index-page {
+        background-position: right;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #index-page .page-title-1 {
+        margin: 0;
+        word-break: normal;
+    }
+
+    #index-page span {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    /* Second Page */
+
+    #second-page {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #746962;
+    }
+
+    #second-page .page-title-2 {
+        text-align: center;
+    }
+
+    #second-page img { 
+        margin: 0;
+        max-width: 50vw;
+    }
+
+    #second-page span {
+        margin: 0;
+        width: 70%;
+    }
+
+    .bio-text {
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+
+    /* Third Page */
+
+    #third-page {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    #third-page img {
+        max-width: 80%;
+    }
+
+    /* Link of interests Page */
+
+    #link-of-interest {
+        background-color: #746962;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #links-title {
+        align-self: center;
+        margin: 0;
+    }
+    
+    #link-of-interest div {
+        max-width: 100%;
+    }
+
+    /* Contact Page */
+
+    #contact-page {
+        font-size: 7vw;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #contact-page img {
+        max-width: 70%;
+    }
+
+    .page-link-2 {
+        font-size: 7vw;
+        margin-top: 10px;
+    }
+    
+
+}
+
+
