@@ -13,6 +13,7 @@
 }
 
 body, html {
+    width: 100%;
     height: 100%;
     font-family: "Codec Pro Thin", Verdana, Tahoma;
     color: white;
@@ -319,14 +320,16 @@ a:link:visited:hover:active {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    max-width: 100%;
+}
+
+#svg-container {
+    max-width: 100%;
 }
 
 svg {
-    max-height: auto;
-}
-
-#link-of-interest div {
-    max-height: 100%;
+    max-width: 65vh;
+    margin-right: 100px;
 }
 
 
@@ -364,40 +367,6 @@ svg {
 
 /* Media queries */
 
-/*
-@media screen and (max-width: 1250px) {
-    .page-title-1 {
-        font-size: 8vw;
-    }
-    
-    .page-title-2 {
-        font-size: 4vw;
-    }
-
-    .page-link {
-        font-size: 2vw;
-    }
-
-    a {
-        font-size: 2vw;
-    }
-
-    .bio-text {
-        font-size: 1vw;
-    }
-
-    #contact-page {
-        font-size: 2vw;
-  }
-    .page-link-2 {
-    font-size: 2vw;
-    }
-
-    #link-of-interest div {
-        max-width: 100%;
-    }
-}
-*/
 
 @media screen and (max-width:500px) { 
 
@@ -408,11 +377,11 @@ svg {
     }
 
     .page-title-2 {
-        font-size: 10vw;
+        font-size: 8vw;
     }
 
     .page-link {
-        font-size: 7vw;
+        font-size: 5vw;
     }
 
     a {
@@ -478,7 +447,7 @@ svg {
     }
     
     #third-page img {
-        max-width: 80%;
+        width: 50%;
     }
 
     /* Link of interests Page */
@@ -495,27 +464,37 @@ svg {
         align-self: center;
         margin: 0;
     }
-    
-    #link-of-interest div {
-        max-width: 100%;
+
+    #svg-container {
+        align-self: center;
+        height: 80%;
     }
 
+    svg {
+        margin-right: 0;
+        margin-top: 50px;
+        height: 80%;
+    }
+
+    #svg-container {
+        max-width: 100%;
+    }
+    
     /* Contact Page */
 
     #contact-page {
-        font-size: 7vw;
+        font-size: 5vw;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: center;
     }
 
     #contact-page img {
-        max-width: 70%;
+        max-width: 60%;
     }
 
     .page-link-2 {
-        font-size: 7vw;
-        margin-top: 10px;
+        font-size: 5vw;
     }
     
 
