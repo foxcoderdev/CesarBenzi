@@ -20,6 +20,10 @@ body, html {
     
   }
 
+  body {
+      position: absolute;
+  }
+
 .page-title-1 {
     font-size: 16vh;
 }
@@ -87,6 +91,7 @@ a:link:visited:hover:active {
 #second-page img {
     margin-right: 8%;
     max-height: 100%;
+    width: auto;
 }
 
 #second-page span {
@@ -323,6 +328,14 @@ a:link:visited:hover:active {
     max-width: 100%;
 }
 
+#link-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 70px;
+}
+
 #svg-container {
     max-width: 100%;
 }
@@ -334,8 +347,8 @@ svg {
 
 
 #links-title {
-    align-self: center;
-    margin-left: 10%;
+    padding: 5px;
+    white-space: nowrap;
 }
 
 /* Contact Page */
@@ -413,6 +426,7 @@ svg {
     /* Second Page */
 
     #second-page {
+        overflow: hidden;
         flex-direction: column-reverse;
         align-items: center;
         justify-content: space-evenly;
@@ -425,7 +439,8 @@ svg {
 
     #second-page img { 
         margin: 0;
-        max-width: 50vw;
+        height: auto;
+        max-width: 25vh;
     }
 
     #second-page span {
@@ -450,6 +465,7 @@ svg {
         width: 50%;
     }
 
+
     /* Link of interests Page */
 
     #link-of-interest {
@@ -460,24 +476,19 @@ svg {
         flex-direction: column;
     }
 
-    #links-title {
+    #link-div {
         align-self: center;
         margin: 0;
     }
 
     #svg-container {
-        align-self: center;
-        height: 80%;
+        height: 90%;
     }
 
     svg {
-        margin-right: 0;
-        margin-top: 50px;
+        margin-right: 0px;
         height: 80%;
-    }
-
-    #svg-container {
-        max-width: 100%;
+        width: 100%;
     }
     
     /* Contact Page */
