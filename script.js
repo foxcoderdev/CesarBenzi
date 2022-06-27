@@ -109,8 +109,8 @@ languageLinkES.addEventListener('click', (e) => {
     </div>
 
        <div class="page" id="link-of-interest">
-         <p class="page-title-2" id="links-title">enlaces de interés</p>
-         <div id="svg-container">
+       <div id="link-div"><p class="page-title-2" id="links-title">enlaces de interés</p>
+         <p>Haga click en los puntos para ver más</p></div>
          <svg
             xmlns:svg="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -468,7 +468,8 @@ languageLinkEN.addEventListener('click', (e) => {
         </div>
 
        <div class="page" id="link-of-interest">
-         <p class="page-title-2" id="links-title">links of interest</p>
+        <div id="link-div"><p class="page-title-2" id="links-title">links of interest</p>
+         <p>Click on the dots to see more</p></div>
          <div>
          <svg
             xmlns:svg="http://www.w3.org/2000/svg"
