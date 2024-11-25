@@ -35,8 +35,8 @@ languageLinkES.addEventListener('click', (e) => {
             <p class="page-title-2">"intangible con fuga"</p>
             <p class="page-title-2">(instalación)</p>
             <a target="blank" class="page-link" href="https://www.youtube.com/watch?v=7wdVyU1WkzY&feature=youtu.be">trabajo en progreso</a>
-            <a target="blank" class="page-link" href="https://www.canva.com/design/DAE_AkWK4eM/DLsqkcxK9_re8Z81igGd4A/view?website#2">texto arq. marcelo olmos</a>
-            <a target="blank" class="page-link" href="https://www.canva.com/design/DAE_AhfXVdk/wQ-fbmbpSPLjNhtqBAOGrQ/view?website#2">texto arq. carlos m. reinante</a>
+            <a target="blank" class="page-link" href="https://www.canva.com/design/DAE_Au7Jkn0/a2FMHZdRGJmsvazSd_UhrQ/view?website#2">texto arq. marcelo olmos</a>
+            <a target="blank" class="page-link" href="https://www.canva.com/design/DAE_AuJDTXE/g94-XT4C-MBNxwNyvOl2hg/view?website#2">texto arq. carlos m. reinante</a>
             <a target="blank" class="page-link" href="https://www.canva.com/design/DAE-32KJ8Do/b-uhGMiZ621qZBJ94Fuj-g/view">+fotos</a>
         </div>
     </div>
