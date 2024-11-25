@@ -45,7 +45,7 @@ languageLinkES.addEventListener('click', (e) => {
         <span>
             <p class="page-title-2">"amor seco"</p>
             <p class="page-title-2">(escultura)</p>
-            <a class="page-link" href="https://www.canva.com/design/DAE-9llKbe4/IHnHguXS4CHH0RxrRdyASg/view?website#2">+fotos</a>
+            <a class="page-link" href="https://www.canva.com/design/DAE-9llKbe4/E6hj4UTULYSGH7XdMx1J1A/view">+fotos</a>
         </span>
     </div>
     <div class="page" id="sixth-page">
@@ -53,7 +53,7 @@ languageLinkES.addEventListener('click', (e) => {
             <p class="page-title-2">"expiraciones"</p>
             <p class="page-title-2">(dibujos no
             <p class="page-title-2"> convencionales)</p>
-            <a class="page-link" href="https://www.canva.com/design/DAE-9wdiqOo/8S1ad291KDekjWVVmD7y6Q/view?website#2:p-gina-5">+fotos</a>
+            <a class="page-link" href="https://www.canva.com/design/DAE-9wdiqOo/ucD8h7z9eIOdoyeqnPOfLA/view">+fotos</a>
             <a class="page-link" href="https://www.rafaela.gob.ar/museo/PatrimonioVer.aspx?i=196">patrimonio</a>
         </span>
     </div>
@@ -63,14 +63,14 @@ languageLinkES.addEventListener('click', (e) => {
             <p class="page-title-2">muerte"</p>
             <p class="page-title-2">(dibujos no
             <p class="page-title-2"> convencionales)</p>
-            <a class="page-link" href="https://www.canva.com/design/DAE-93xfEAA/AG0nd-bOlYkcp3PCvYgo8g/view?website#2:p-gina-2">+fotos</a>
+            <a class="page-link" href="https://www.canva.com/design/DAE-93xfEAA/SG7OCUmPMWifVRNFzsZeDA/view">+fotos</a>
         </span>
     </div>
     <div class="page" id="eighth-page">
         <span id="eighth-page-items">
        <p class="page-title-2">"blanco"</p>
         <p class="page-title-2">(instalación)</p>
-       <a class="page-link" href="https://www.canva.com/design/DAE_PPfKmng/kR17bh91aWNT67EqZBAx5g/view?website#2:p-gina-1">+fotos</a>
+       <a class="page-link" href="https://www.canva.com/design/DAE_PPfKmng/SbLNWnIZ7scoShNfGCh5Hg/view">+fotos</a>
         </span>
     </div>
 
@@ -79,7 +79,7 @@ languageLinkES.addEventListener('click', (e) => {
             <p class="page-title-2">"romanza"</p>
             <p class="page-title-2">(dibujos no
                 <p class="page-title-2"> convencionales)</p>
-            <a class="page-link" href="https://www.canva.com/design/DAE-99og8Ao/ce2721gfroLlaIRR1kgoMw/view?website#2:p-gina-1">+fotos</a>
+            <a class="page-link" href="https://www.canva.com/design/DAE-99og8Ao/39ZG4wHNoOI-e0MmzAOeGA/view">+fotos</a>
         </span>
     </div>
     <div class="page" id="tenth-page">
@@ -87,7 +87,7 @@ languageLinkES.addEventListener('click', (e) => {
             <p class="page-title-2">"lo intangible"</p>
             <p class="page-title-2">(dibujos no</p>
             <p class="page-title-2">convencionales  - instalación)</p>
-            <a class="page-link" href="https://www.canva.com/design/DAE-9wPxF7I/2EeK9dRihhKiW-sk5bX9Tw/view?website#2:p-gina-5">+fotos</a>
+            <a class="page-link" href="https://www.canva.com/design/DAE-9wPxF7I/X8MMgfuUB0AFLSxBzYEdUA/view">+fotos</a>
         </span>
     </div>
 
@@ -96,7 +96,7 @@ languageLinkES.addEventListener('click', (e) => {
             <p class="page-title-2">"humanos</p>
             <p class="page-title-2">danzantes"</p>
             <p class="page-title-2">(escultura)</p>
-            <a class="page-link" href="https://www.canva.com/design/DAE--GcJQuk/lt1wk2aoy_6l__UPg0659w/view?website#2:retornar-al-sitio-return-to-site">+fotos</a>
+            <a class="page-link" href="https://www.canva.com/design/DAE--GcJQuk/dIslXdPHsYozRvx24JIBzw/view">+fotos</a>
         </span>
     </div>
 
@@ -104,7 +104,7 @@ languageLinkES.addEventListener('click', (e) => {
             <span id="twelft-page-items">
                 <p class="page-title-2">"el origen"</p>
                 <p class="page-title-2"> (cerámicas)</p>
-                <a class="page-link" href="https://www.canva.com/design/DAE--KE2WDE/4JYYkp2KKr7QKYUvfNGOJA/view?website#2">+fotos</a>
+                <a class="page-link" href="https://www.canva.com/design/DAE--KE2WDE/vV9uCdSfcetjGheFZ7A8WA/view">+fotos</a>
             </span>
     </div>
 
@@ -401,7 +401,7 @@ languageLinkEN.addEventListener('click', (e) => {
         <span>
             <p class="page-title-2">"dry love"</p>
             <p class="page-title-2">(sculptures)</p>
-            <a class="page-link" href="https://www.canva.com/design/DAE-9llKbe4/IHnHguXS4CHH0RxrRdyASg/view?website#2">+photos</a>
+            <a class="page-link" href="https://www.canva.com/design/DAE-9llKbe4/E6hj4UTULYSGH7XdMx1J1A/view">+photos</a>
         </span>
     </div>
 
@@ -411,7 +411,7 @@ languageLinkEN.addEventListener('click', (e) => {
             <p class="page-title-2">"expirations"</p>
             <p class="page-title-2">(unconventional
             <p class="page-title-2"> drawings)</p>
-            <a class="page-link" href="https://www.canva.com/design/DAE-9wdiqOo/8S1ad291KDekjWVVmD7y6Q/view?website#2:p-gina-5">+photos</a>
+            <a class="page-link" href="https://www.canva.com/design/DAE-9wdiqOo/ucD8h7z9eIOdoyeqnPOfLA/view">+photos</a>
             <a class="page-link" href="https://www.rafaela.gob.ar/museo/PatrimonioVer.aspx?i=196">heritage</a>
         </span>
     </div>
@@ -421,7 +421,7 @@ languageLinkEN.addEventListener('click', (e) => {
             <p class="page-title-2">"death sync"</p>
             <p class="page-title-2">(unconventional
             <p class="page-title-2"> drawings)</p>
-            <a class="page-link" href="https://www.canva.com/design/DAE-93xfEAA/AG0nd-bOlYkcp3PCvYgo8g/view?website#2:p-gina-2">+photos</a>
+            <a class="page-link" href="https://www.canva.com/design/DAE-93xfEAA/SG7OCUmPMWifVRNFzsZeDA/view">+photos</a>
         </span>
     </div>
 
@@ -429,7 +429,7 @@ languageLinkEN.addEventListener('click', (e) => {
         <span id="eighth-page-items">
        <p class="page-title-2">"white" </p>
         <p class="page-title-2">(installation)</p>
-       <a class="page-link" href="https://www.canva.com/design/DAE_PPfKmng/kR17bh91aWNT67EqZBAx5g/view?website#2:p-gina-1">+photos</a>
+       <a class="page-link" href="https://www.canva.com/design/DAE_PPfKmng/SbLNWnIZ7scoShNfGCh5Hg/view">+photos</a>
         </span>
     </div>
 
@@ -438,7 +438,7 @@ languageLinkEN.addEventListener('click', (e) => {
             <p class="page-title-2">"romance"</p>
             <p class="page-title-2">(unconventional
                 <p class="page-title-2"> drawings)</p>
-            <a class="page-link" href="https://www.canva.com/design/DAE-99og8Ao/ce2721gfroLlaIRR1kgoMw/view?website#2:p-gina-1">+photos</a>
+            <a class="page-link" href="https://www.canva.com/design/DAE-99og8Ao/39ZG4wHNoOI-e0MmzAOeGA/view">+photos</a>
         </span>
     </div>
 
@@ -447,7 +447,7 @@ languageLinkEN.addEventListener('click', (e) => {
             <p class="page-title-2">"the intangible"</p>
             <p class="page-title-2">(unconventional</p>
             <p class="page-title-2">drawings  - installation)</p>
-            <a class="page-link" href="https://www.canva.com/design/DAE-9wPxF7I/2EeK9dRihhKiW-sk5bX9Tw/view?website#2:p-gina-5">+photos</a>
+            <a class="page-link" href="https://www.canva.com/design/DAE-9wPxF7I/X8MMgfuUB0AFLSxBzYEdUA/view">+photos</a>
         </span>
     </div>
 
@@ -455,7 +455,7 @@ languageLinkEN.addEventListener('click', (e) => {
         <span id="eleventh-page-items">
             <p class="page-title-2">"dancing humans"</p>
             <p class="page-title-2">(sculptures)</p>
-            <a class="page-link" href="https://www.canva.com/design/DAE--GcJQuk/lt1wk2aoy_6l__UPg0659w/view?website#2:retornar-al-sitio-return-to-site">+photos</a>
+            <a class="page-link" href="https://www.canva.com/design/DAE--GcJQuk/dIslXdPHsYozRvx24JIBzw/view">+photos</a>
         </span>
     </div>
 
@@ -463,7 +463,7 @@ languageLinkEN.addEventListener('click', (e) => {
             <span id="twelft-page-items">
                 <p class="page-title-2">"the origin"</p>
                 <p class="page-title-2"> (ceramics)</p>
-                <a class="page-link" href="https://www.canva.com/design/DAE--KE2WDE/4JYYkp2KKr7QKYUvfNGOJA/view?website#2">+photos</a>
+                <a class="page-link" href="https://www.canva.com/design/DAE--KE2WDE/vV9uCdSfcetjGheFZ7A8WA/view">+photos</a>
             </span>
         </div>
 
